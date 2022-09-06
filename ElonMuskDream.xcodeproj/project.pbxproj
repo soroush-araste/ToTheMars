@@ -97,11 +97,10 @@
 		2831D83528C7AF0C00E75CE8 /* ElonMuskDream */ = {
 			isa = PBXGroup;
 			children = (
-				2831D83628C7AF0C00E75CE8 /* AppDelegate.swift */,
-				2831D83828C7AF0C00E75CE8 /* SceneDelegate.swift */,
+				2831D87028C7B79A00E75CE8 /* Services */,
+				2831D86D28C7B6BE00E75CE8 /* App */,
+				2831D86E28C7B6EA00E75CE8 /* Resources */,
 				2831D83A28C7AF0C00E75CE8 /* ViewController.swift */,
-				2831D83F28C7AF1100E75CE8 /* Assets.xcassets */,
-				2831D84128C7AF1100E75CE8 /* LaunchScreen.storyboard */,
 				2831D84428C7AF1100E75CE8 /* Info.plist */,
 			);
 			path = ElonMuskDream;
@@ -122,6 +121,31 @@
 				2831D85928C7AF1200E75CE8 /* ElonMuskDreamUITestsLaunchTests.swift */,
 			);
 			path = ElonMuskDreamUITests;
+			sourceTree = "<group>";
+		};
+		2831D86D28C7B6BE00E75CE8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2831D83628C7AF0C00E75CE8 /* AppDelegate.swift */,
+				2831D83828C7AF0C00E75CE8 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2831D86E28C7B6EA00E75CE8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2831D83F28C7AF1100E75CE8 /* Assets.xcassets */,
+				2831D84128C7AF1100E75CE8 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2831D87028C7B79A00E75CE8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
