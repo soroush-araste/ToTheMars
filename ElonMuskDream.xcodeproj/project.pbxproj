@@ -10,7 +10,6 @@
 		2831D83728C7AF0C00E75CE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831D83628C7AF0C00E75CE8 /* AppDelegate.swift */; };
 		2831D83928C7AF0C00E75CE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831D83828C7AF0C00E75CE8 /* SceneDelegate.swift */; };
 		2831D83B28C7AF0C00E75CE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831D83A28C7AF0C00E75CE8 /* ViewController.swift */; };
-		2831D83E28C7AF0C00E75CE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2831D83C28C7AF0C00E75CE8 /* Main.storyboard */; };
 		2831D84028C7AF1100E75CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2831D83F28C7AF1100E75CE8 /* Assets.xcassets */; };
 		2831D84328C7AF1100E75CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2831D84128C7AF1100E75CE8 /* LaunchScreen.storyboard */; };
 		2831D84E28C7AF1200E75CE8 /* ElonMuskDreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831D84D28C7AF1200E75CE8 /* ElonMuskDreamTests.swift */; };
@@ -40,7 +39,6 @@
 		2831D83628C7AF0C00E75CE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2831D83828C7AF0C00E75CE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2831D83A28C7AF0C00E75CE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2831D83D28C7AF0C00E75CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2831D83F28C7AF1100E75CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2831D84228C7AF1100E75CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2831D84428C7AF1100E75CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 				2831D83628C7AF0C00E75CE8 /* AppDelegate.swift */,
 				2831D83828C7AF0C00E75CE8 /* SceneDelegate.swift */,
 				2831D83A28C7AF0C00E75CE8 /* ViewController.swift */,
-				2831D83C28C7AF0C00E75CE8 /* Main.storyboard */,
 				2831D83F28C7AF1100E75CE8 /* Assets.xcassets */,
 				2831D84128C7AF1100E75CE8 /* LaunchScreen.storyboard */,
 				2831D84428C7AF1100E75CE8 /* Info.plist */,
@@ -233,7 +230,6 @@
 			files = (
 				2831D84328C7AF1100E75CE8 /* LaunchScreen.storyboard in Resources */,
 				2831D84028C7AF1100E75CE8 /* Assets.xcassets in Resources */,
-				2831D83E28C7AF0C00E75CE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2831D83C28C7AF0C00E75CE8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2831D83D28C7AF0C00E75CE8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2831D84128C7AF1100E75CE8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +430,6 @@
 				INFOPLIST_FILE = ElonMuskDream/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +457,6 @@
 				INFOPLIST_FILE = ElonMuskDream/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
