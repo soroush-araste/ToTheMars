@@ -153,12 +153,3 @@ extension MissionListViewController {
         case main
     }
 }
-
-extension UIViewController {
-    func showAlert(title: String = "Notice!", message: String, actionTitle: String) {
-        let alertController = UIAlertController(title: "Notice!", message: message, preferredStyle: .alert)
-        let alertAction = UIAlertAction(title: actionTitle, style: .default)
-        alertController.addAction(alertAction)
-        self.present(alertController, animated: true, completion: nil)
-    }
-}
