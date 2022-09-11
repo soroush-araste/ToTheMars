@@ -856,6 +856,7 @@
 				DEVELOPMENT_TEAM = 6T7Q5NYYAK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ElonMuskDream/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Elon Musk Dream";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -885,6 +886,7 @@
 				DEVELOPMENT_TEAM = 6T7Q5NYYAK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ElonMuskDream/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Elon Musk Dream";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
