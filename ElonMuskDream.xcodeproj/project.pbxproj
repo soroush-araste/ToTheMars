@@ -9,12 +9,50 @@
 /* Begin PBXBuildFile section */
 		2831D83728C7AF0C00E75CE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831D83628C7AF0C00E75CE8 /* AppDelegate.swift */; };
 		2831D83928C7AF0C00E75CE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831D83828C7AF0C00E75CE8 /* SceneDelegate.swift */; };
-		2831D83B28C7AF0C00E75CE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831D83A28C7AF0C00E75CE8 /* ViewController.swift */; };
+		2831D83B28C7AF0C00E75CE8 /* MissionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831D83A28C7AF0C00E75CE8 /* MissionListViewController.swift */; };
 		2831D84028C7AF1100E75CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2831D83F28C7AF1100E75CE8 /* Assets.xcassets */; };
 		2831D84328C7AF1100E75CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2831D84128C7AF1100E75CE8 /* LaunchScreen.storyboard */; };
 		2831D84E28C7AF1200E75CE8 /* ElonMuskDreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831D84D28C7AF1200E75CE8 /* ElonMuskDreamTests.swift */; };
 		2831D85828C7AF1200E75CE8 /* ElonMuskDreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831D85728C7AF1200E75CE8 /* ElonMuskDreamUITests.swift */; };
 		2831D85A28C7AF1200E75CE8 /* ElonMuskDreamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831D85928C7AF1200E75CE8 /* ElonMuskDreamUITestsLaunchTests.swift */; };
+		2831D89728C7D34900E75CE8 /* MissionsEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831D89628C7D34900E75CE8 /* MissionsEndpoint.swift */; };
+		28B9D12028C9E7FD00C312BE /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D11F28C9E7FD00C312BE /* Mission.swift */; };
+		28B9D12528C9E93D00C312BE /* MissionsQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D12428C9E93D00C312BE /* MissionsQuery.swift */; };
+		28B9D12728C9EABF00C312BE /* MissionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D12628C9EABF00C312BE /* MissionListViewModel.swift */; };
+		28B9D12C28C9F53D00C312BE /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D12B28C9F53C00C312BE /* Repository.swift */; };
+		28B9D12F28CA121100C312BE /* Identifier+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D12E28CA121100C312BE /* Identifier+Extension.swift */; };
+		28B9D13228CA17DA00C312BE /* MissionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D13128CA17DA00C312BE /* MissionTableViewCell.swift */; };
+		28B9D13428CA7F0A00C312BE /* MissionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28B9D13328CA7F0A00C312BE /* MissionTableViewCell.xib */; };
+		28B9D13B28CB19A400C312BE /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 28B9D13A28CB19A400C312BE /* Kingfisher */; };
+		28B9D13D28CB3BF000C312BE /* UIVIew+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D13C28CB3BF000C312BE /* UIVIew+Extension.swift */; };
+		28B9D14128CB42A900C312BE /* MissionDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D13F28CB42A900C312BE /* MissionDetailsViewController.swift */; };
+		28B9D14228CB42A900C312BE /* MissionDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28B9D14028CB42A900C312BE /* MissionDetailsViewController.xib */; };
+		28B9D15628CC9A5F00C312BE /* MissionDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D15528CC9A5F00C312BE /* MissionDetailsViewModel.swift */; };
+		28B9D15C28CCA3DB00C312BE /* DomainMission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D15B28CCA3DB00C312BE /* DomainMission.swift */; };
+		28B9D15F28CCA43F00C312BE /* MissionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D15E28CCA43F00C312BE /* MissionRepository.swift */; };
+		28B9D16128CCA46900C312BE /* MissionDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D16028CCA46900C312BE /* MissionDataSourceProtocol.swift */; };
+		28B9D16528CCA4B300C312BE /* MissionLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D16428CCA4B300C312BE /* MissionLocalDataSource.swift */; };
+		28B9D16828CCA4DE00C312BE /* MissionRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D16728CCA4DE00C312BE /* MissionRemoteDataSource.swift */; };
+		28B9D16C28CCA70F00C312BE /* MissionListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D16B28CCA70F00C312BE /* MissionListFactory.swift */; };
+		28B9D16F28CCA93800C312BE /* MissionDetailsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D16E28CCA93800C312BE /* MissionDetailsFactory.swift */; };
+		28B9D1CC28CCC49E00C312BE /* ElonMuskDream.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D1CA28CCC49E00C312BE /* ElonMuskDream.xcdatamodeld */; };
+		28B9D1CF28CCCEB200C312BE /* MissionDetailsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D1CE28CCCEB200C312BE /* MissionDetailsRepository.swift */; };
+		28B9D1D228CCDE0900C312BE /* PersistentStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D1D128CCDE0900C312BE /* PersistentStorage.swift */; };
+		28B9D1D628CCDF6700C312BE /* MissionDetailsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D1D528CCDF6700C312BE /* MissionDetailsDataSource.swift */; };
+		28B9D1D828CCDF7F00C312BE /* MissionDetailsLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D1D728CCDF7F00C312BE /* MissionDetailsLocalDataSource.swift */; };
+		28B9D1DA28CCF07500C312BE /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D1D928CCF07500C312BE /* UITableView+Extension.swift */; };
+		28B9D1DD28CCF0D800C312BE /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D1DC28CCF0D800C312BE /* EmptyListView.swift */; };
+		28B9D1E128CD06BE00C312BE /* RocketImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D1DF28CD06BE00C312BE /* RocketImagesViewController.swift */; };
+		28B9D1E428CD07B900C312BE /* RocketImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D1E328CD07B900C312BE /* RocketImagesCollectionViewCell.swift */; };
+		28CF3A4F28CE4D7F00C81781 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CF3A4E28CE4D7F00C81781 /* NetworkConfig.swift */; };
+		28CF3A5128CE4DBA00C81781 /* URLParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CF3A5028CE4DBA00C81781 /* URLParameterEncoding.swift */; };
+		28CF3A5328CE4DC800C81781 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CF3A5228CE4DC800C81781 /* JSONParameterEncoder.swift */; };
+		28CF3A5528CE4F6F00C81781 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CF3A5428CE4F6F00C81781 /* EndPointType.swift */; };
+		28CF3A5728CE4F7900C81781 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CF3A5628CE4F7900C81781 /* HTTPMethod.swift */; };
+		28CF3A5928CE4FBF00C81781 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CF3A5828CE4FBF00C81781 /* HTTPTask.swift */; };
+		28CF3A5B28CE4FF500C81781 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CF3A5A28CE4FF500C81781 /* NetworkError.swift */; };
+		28CF3A5D28CE4FFF00C81781 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CF3A5C28CE4FFF00C81781 /* NetworkLogger.swift */; };
+		28CF3A5F28CE500900C81781 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CF3A5E28CE500900C81781 /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +76,7 @@
 		2831D83328C7AF0C00E75CE8 /* ElonMuskDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElonMuskDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2831D83628C7AF0C00E75CE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2831D83828C7AF0C00E75CE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2831D83A28C7AF0C00E75CE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2831D83A28C7AF0C00E75CE8 /* MissionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionListViewController.swift; sourceTree = "<group>"; };
 		2831D83F28C7AF1100E75CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2831D84228C7AF1100E75CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2831D84428C7AF1100E75CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +85,43 @@
 		2831D85328C7AF1200E75CE8 /* ElonMuskDreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElonMuskDreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2831D85728C7AF1200E75CE8 /* ElonMuskDreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElonMuskDreamUITests.swift; sourceTree = "<group>"; };
 		2831D85928C7AF1200E75CE8 /* ElonMuskDreamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElonMuskDreamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2831D89628C7D34900E75CE8 /* MissionsEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionsEndpoint.swift; sourceTree = "<group>"; };
+		28B9D11F28C9E7FD00C312BE /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		28B9D12428C9E93D00C312BE /* MissionsQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionsQuery.swift; sourceTree = "<group>"; };
+		28B9D12628C9EABF00C312BE /* MissionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionListViewModel.swift; sourceTree = "<group>"; };
+		28B9D12B28C9F53C00C312BE /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		28B9D12E28CA121100C312BE /* Identifier+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Identifier+Extension.swift"; sourceTree = "<group>"; };
+		28B9D13128CA17DA00C312BE /* MissionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionTableViewCell.swift; sourceTree = "<group>"; };
+		28B9D13328CA7F0A00C312BE /* MissionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MissionTableViewCell.xib; sourceTree = "<group>"; };
+		28B9D13C28CB3BF000C312BE /* UIVIew+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIew+Extension.swift"; sourceTree = "<group>"; };
+		28B9D13F28CB42A900C312BE /* MissionDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetailsViewController.swift; sourceTree = "<group>"; };
+		28B9D14028CB42A900C312BE /* MissionDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MissionDetailsViewController.xib; sourceTree = "<group>"; };
+		28B9D15528CC9A5F00C312BE /* MissionDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetailsViewModel.swift; sourceTree = "<group>"; };
+		28B9D15B28CCA3DB00C312BE /* DomainMission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainMission.swift; sourceTree = "<group>"; };
+		28B9D15E28CCA43F00C312BE /* MissionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionRepository.swift; sourceTree = "<group>"; };
+		28B9D16028CCA46900C312BE /* MissionDataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDataSourceProtocol.swift; sourceTree = "<group>"; };
+		28B9D16428CCA4B300C312BE /* MissionLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionLocalDataSource.swift; sourceTree = "<group>"; };
+		28B9D16728CCA4DE00C312BE /* MissionRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionRemoteDataSource.swift; sourceTree = "<group>"; };
+		28B9D16B28CCA70F00C312BE /* MissionListFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionListFactory.swift; sourceTree = "<group>"; };
+		28B9D16E28CCA93800C312BE /* MissionDetailsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetailsFactory.swift; sourceTree = "<group>"; };
+		28B9D1CB28CCC49E00C312BE /* ElonMuskDream.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ElonMuskDream.xcdatamodel; sourceTree = "<group>"; };
+		28B9D1CE28CCCEB200C312BE /* MissionDetailsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetailsRepository.swift; sourceTree = "<group>"; };
+		28B9D1D128CCDE0900C312BE /* PersistentStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStorage.swift; sourceTree = "<group>"; };
+		28B9D1D528CCDF6700C312BE /* MissionDetailsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetailsDataSource.swift; sourceTree = "<group>"; };
+		28B9D1D728CCDF7F00C312BE /* MissionDetailsLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetailsLocalDataSource.swift; sourceTree = "<group>"; };
+		28B9D1D928CCF07500C312BE /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		28B9D1DC28CCF0D800C312BE /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
+		28B9D1DF28CD06BE00C312BE /* RocketImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketImagesViewController.swift; sourceTree = "<group>"; };
+		28B9D1E328CD07B900C312BE /* RocketImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketImagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		28CF3A4E28CE4D7F00C81781 /* NetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		28CF3A5028CE4DBA00C81781 /* URLParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoding.swift; sourceTree = "<group>"; };
+		28CF3A5228CE4DC800C81781 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		28CF3A5428CE4F6F00C81781 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		28CF3A5628CE4F7900C81781 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		28CF3A5828CE4FBF00C81781 /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		28CF3A5A28CE4FF500C81781 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		28CF3A5C28CE4FFF00C81781 /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		28CF3A5E28CE500900C81781 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B9D13B28CB19A400C312BE /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,11 +173,16 @@
 		2831D83528C7AF0C00E75CE8 /* ElonMuskDream */ = {
 			isa = PBXGroup;
 			children = (
-				2831D87028C7B79A00E75CE8 /* Services */,
+				28B9D1DB28CCF0C300C312BE /* CustomViews */,
+				28B9D1D028CCDDE600C312BE /* CoreData */,
 				2831D86D28C7B6BE00E75CE8 /* App */,
+				28B9D12A28C9F52C00C312BE /* Repository */,
+				28B9D12D28CA11F900C312BE /* Extension */,
+				28B9D11C28C9E7D300C312BE /* Modules */,
+				2831D87028C7B79A00E75CE8 /* Services */,
 				2831D86E28C7B6EA00E75CE8 /* Resources */,
-				2831D83A28C7AF0C00E75CE8 /* ViewController.swift */,
 				2831D84428C7AF1100E75CE8 /* Info.plist */,
+				28B9D1CA28CCC49E00C312BE /* ElonMuskDream.xcdatamodeld */,
 			);
 			path = ElonMuskDream;
 			sourceTree = "<group>";
@@ -144,8 +225,288 @@
 		2831D87028C7B79A00E75CE8 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				2831D89A28C9135300E75CE8 /* Network */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		2831D89528C7D30F00E75CE8 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				2831D89628C7D34900E75CE8 /* MissionsEndpoint.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		2831D89A28C9135300E75CE8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2831D8AC28C9139200E75CE8 /* Config */,
+				2831D8A928C9139100E75CE8 /* Endcoding */,
+				28CF3A5428CE4F6F00C81781 /* EndPointType.swift */,
+				28CF3A5628CE4F7900C81781 /* HTTPMethod.swift */,
+				28CF3A5828CE4FBF00C81781 /* HTTPTask.swift */,
+				28CF3A5A28CE4FF500C81781 /* NetworkError.swift */,
+				28CF3A5C28CE4FFF00C81781 /* NetworkLogger.swift */,
+				28CF3A5E28CE500900C81781 /* Router.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2831D8A928C9139100E75CE8 /* Endcoding */ = {
+			isa = PBXGroup;
+			children = (
+				28CF3A5028CE4DBA00C81781 /* URLParameterEncoding.swift */,
+				28CF3A5228CE4DC800C81781 /* JSONParameterEncoder.swift */,
+			);
+			path = Endcoding;
+			sourceTree = "<group>";
+		};
+		2831D8AC28C9139200E75CE8 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				28CF3A4E28CE4D7F00C81781 /* NetworkConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		28B9D11C28C9E7D300C312BE /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D11D28C9E7D600C312BE /* Missions */,
+				28B9D13E28CB427E00C312BE /* MissionDetails */,
+				28B9D1DE28CD069100C312BE /* RocketImages */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		28B9D11D28C9E7D600C312BE /* Missions */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D16A28CCA6FD00C312BE /* Factory */,
+				28B9D15D28CCA42E00C312BE /* Repository */,
+				28B9D15928CCA39500C312BE /* API */,
+				28B9D13028CA17B000C312BE /* Cell */,
+				28B9D12928C9ECC100C312BE /* ViewModel */,
+				28B9D12828C9ECBC00C312BE /* Controller */,
+				28B9D11E28C9E7E900C312BE /* Model */,
+			);
+			path = Missions;
+			sourceTree = "<group>";
+		};
+		28B9D11E28C9E7E900C312BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D15A28CCA3C700C312BE /* DomainModel */,
+				28B9D12328C9E92C00C312BE /* Encodable */,
+				28B9D12228C9E92600C312BE /* Decodable */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		28B9D12228C9E92600C312BE /* Decodable */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D11F28C9E7FD00C312BE /* Mission.swift */,
+			);
+			path = Decodable;
+			sourceTree = "<group>";
+		};
+		28B9D12328C9E92C00C312BE /* Encodable */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D12428C9E93D00C312BE /* MissionsQuery.swift */,
+			);
+			path = Encodable;
+			sourceTree = "<group>";
+		};
+		28B9D12828C9ECBC00C312BE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2831D83A28C7AF0C00E75CE8 /* MissionListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		28B9D12928C9ECC100C312BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D12628C9EABF00C312BE /* MissionListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		28B9D12A28C9F52C00C312BE /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D12B28C9F53C00C312BE /* Repository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		28B9D12D28CA11F900C312BE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D12E28CA121100C312BE /* Identifier+Extension.swift */,
+				28B9D13C28CB3BF000C312BE /* UIVIew+Extension.swift */,
+				28B9D1D928CCF07500C312BE /* UITableView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		28B9D13028CA17B000C312BE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D13128CA17DA00C312BE /* MissionTableViewCell.swift */,
+				28B9D13328CA7F0A00C312BE /* MissionTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		28B9D13E28CB427E00C312BE /* MissionDetails */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D1CD28CCCE9A00C312BE /* Repository */,
+				28B9D16D28CCA92100C312BE /* Factory */,
+				28B9D15828CC9DB500C312BE /* ViewModel */,
+				28B9D15728CC9DAF00C312BE /* Controller */,
+			);
+			path = MissionDetails;
+			sourceTree = "<group>";
+		};
+		28B9D15728CC9DAF00C312BE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D13F28CB42A900C312BE /* MissionDetailsViewController.swift */,
+				28B9D14028CB42A900C312BE /* MissionDetailsViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		28B9D15828CC9DB500C312BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D15528CC9A5F00C312BE /* MissionDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		28B9D15928CCA39500C312BE /* API */ = {
+			isa = PBXGroup;
+			children = (
+				2831D89528C7D30F00E75CE8 /* Endpoints */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		28B9D15A28CCA3C700C312BE /* DomainModel */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D15B28CCA3DB00C312BE /* DomainMission.swift */,
+			);
+			path = DomainModel;
+			sourceTree = "<group>";
+		};
+		28B9D15D28CCA42E00C312BE /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D15E28CCA43F00C312BE /* MissionRepository.swift */,
+				28B9D16928CCA50900C312BE /* DataSource Protocol */,
+				28B9D16628CCA4C500C312BE /* Remote DataSource */,
+				28B9D16328CCA49D00C312BE /* Local DataSource */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		28B9D16328CCA49D00C312BE /* Local DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D16428CCA4B300C312BE /* MissionLocalDataSource.swift */,
+			);
+			path = "Local DataSource";
+			sourceTree = "<group>";
+		};
+		28B9D16628CCA4C500C312BE /* Remote DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D16728CCA4DE00C312BE /* MissionRemoteDataSource.swift */,
+			);
+			path = "Remote DataSource";
+			sourceTree = "<group>";
+		};
+		28B9D16928CCA50900C312BE /* DataSource Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D16028CCA46900C312BE /* MissionDataSourceProtocol.swift */,
+			);
+			path = "DataSource Protocol";
+			sourceTree = "<group>";
+		};
+		28B9D16A28CCA6FD00C312BE /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D16B28CCA70F00C312BE /* MissionListFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		28B9D16D28CCA92100C312BE /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D16E28CCA93800C312BE /* MissionDetailsFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		28B9D1CD28CCCE9A00C312BE /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D1CE28CCCEB200C312BE /* MissionDetailsRepository.swift */,
+				28B9D1D428CCDF3700C312BE /* DataSource Protocol */,
+				28B9D1D328CCDEFC00C312BE /* Local DataSource */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		28B9D1D028CCDDE600C312BE /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D1D128CCDE0900C312BE /* PersistentStorage.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		28B9D1D328CCDEFC00C312BE /* Local DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D1D728CCDF7F00C312BE /* MissionDetailsLocalDataSource.swift */,
+			);
+			path = "Local DataSource";
+			sourceTree = "<group>";
+		};
+		28B9D1D428CCDF3700C312BE /* DataSource Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D1D528CCDF6700C312BE /* MissionDetailsDataSource.swift */,
+			);
+			path = "DataSource Protocol";
+			sourceTree = "<group>";
+		};
+		28B9D1DB28CCF0C300C312BE /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D1DC28CCF0D800C312BE /* EmptyListView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		28B9D1DE28CD069100C312BE /* RocketImages */ = {
+			isa = PBXGroup;
+			children = (
+				28B9D1DF28CD06BE00C312BE /* RocketImagesViewController.swift */,
+				28B9D1E328CD07B900C312BE /* RocketImagesCollectionViewCell.swift */,
+			);
+			path = RocketImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +525,9 @@
 			dependencies = (
 			);
 			name = ElonMuskDream;
+			packageProductDependencies = (
+				28B9D13A28CB19A400C312BE /* Kingfisher */,
+			);
 			productName = ElonMuskDream;
 			productReference = 2831D83328C7AF0C00E75CE8 /* ElonMuskDream.app */;
 			productType = "com.apple.product-type.application";
@@ -236,6 +600,9 @@
 				Base,
 			);
 			mainGroup = 2831D82A28C7AF0C00E75CE8;
+			packageReferences = (
+				28B9D13928CB19A400C312BE /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 2831D83428C7AF0C00E75CE8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -252,7 +619,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B9D14228CB42A900C312BE /* MissionDetailsViewController.xib in Resources */,
 				2831D84328C7AF1100E75CE8 /* LaunchScreen.storyboard in Resources */,
+				28B9D13428CA7F0A00C312BE /* MissionTableViewCell.xib in Resources */,
 				2831D84028C7AF1100E75CE8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,9 +647,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2831D83B28C7AF0C00E75CE8 /* ViewController.swift in Sources */,
+				28B9D16F28CCA93800C312BE /* MissionDetailsFactory.swift in Sources */,
+				28B9D1CF28CCCEB200C312BE /* MissionDetailsRepository.swift in Sources */,
+				28B9D15C28CCA3DB00C312BE /* DomainMission.swift in Sources */,
+				28CF3A5D28CE4FFF00C81781 /* NetworkLogger.swift in Sources */,
+				28CF3A5328CE4DC800C81781 /* JSONParameterEncoder.swift in Sources */,
+				28B9D16128CCA46900C312BE /* MissionDataSourceProtocol.swift in Sources */,
+				28B9D16C28CCA70F00C312BE /* MissionListFactory.swift in Sources */,
+				28B9D1CC28CCC49E00C312BE /* ElonMuskDream.xcdatamodeld in Sources */,
+				28CF3A5728CE4F7900C81781 /* HTTPMethod.swift in Sources */,
+				2831D83B28C7AF0C00E75CE8 /* MissionListViewController.swift in Sources */,
+				28B9D1D228CCDE0900C312BE /* PersistentStorage.swift in Sources */,
+				28B9D12028C9E7FD00C312BE /* Mission.swift in Sources */,
+				28B9D1DA28CCF07500C312BE /* UITableView+Extension.swift in Sources */,
+				28B9D12728C9EABF00C312BE /* MissionListViewModel.swift in Sources */,
 				2831D83728C7AF0C00E75CE8 /* AppDelegate.swift in Sources */,
+				28B9D1D828CCDF7F00C312BE /* MissionDetailsLocalDataSource.swift in Sources */,
+				28B9D16528CCA4B300C312BE /* MissionLocalDataSource.swift in Sources */,
+				28CF3A5F28CE500900C81781 /* Router.swift in Sources */,
+				28B9D15F28CCA43F00C312BE /* MissionRepository.swift in Sources */,
+				28CF3A5B28CE4FF500C81781 /* NetworkError.swift in Sources */,
+				28B9D1E128CD06BE00C312BE /* RocketImagesViewController.swift in Sources */,
+				28B9D16828CCA4DE00C312BE /* MissionRemoteDataSource.swift in Sources */,
+				28B9D13228CA17DA00C312BE /* MissionTableViewCell.swift in Sources */,
+				28B9D12C28C9F53D00C312BE /* Repository.swift in Sources */,
+				28B9D12F28CA121100C312BE /* Identifier+Extension.swift in Sources */,
+				28B9D14128CB42A900C312BE /* MissionDetailsViewController.swift in Sources */,
+				28B9D15628CC9A5F00C312BE /* MissionDetailsViewModel.swift in Sources */,
+				28B9D1E428CD07B900C312BE /* RocketImagesCollectionViewCell.swift in Sources */,
+				28B9D12528C9E93D00C312BE /* MissionsQuery.swift in Sources */,
+				28CF3A5928CE4FBF00C81781 /* HTTPTask.swift in Sources */,
+				28CF3A4F28CE4D7F00C81781 /* NetworkConfig.swift in Sources */,
+				28B9D1D628CCDF6700C312BE /* MissionDetailsDataSource.swift in Sources */,
 				2831D83928C7AF0C00E75CE8 /* SceneDelegate.swift in Sources */,
+				28CF3A5528CE4F6F00C81781 /* EndPointType.swift in Sources */,
+				28CF3A5128CE4DBA00C81781 /* URLParameterEncoding.swift in Sources */,
+				28B9D1DD28CCF0D800C312BE /* EmptyListView.swift in Sources */,
+				2831D89728C7D34900E75CE8 /* MissionsEndpoint.swift in Sources */,
+				28B9D13D28CB3BF000C312BE /* UIVIew+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,7 +861,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,7 +890,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -616,6 +1020,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		28B9D13928CB19A400C312BE /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		28B9D13A28CB19A400C312BE /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 28B9D13928CB19A400C312BE /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		28B9D1CA28CCC49E00C312BE /* ElonMuskDream.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28B9D1CB28CCC49E00C312BE /* ElonMuskDream.xcdatamodel */,
+			);
+			currentVersion = 28B9D1CB28CCC49E00C312BE /* ElonMuskDream.xcdatamodel */;
+			path = ElonMuskDream.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2831D82B28C7AF0C00E75CE8 /* Project object */;
 }
