@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="ElonMuskDream/ElonMuskDream/Resources/Assets.xcassets/AppIcon.appiconset/1024.png" height="192">
+  <img src="ElonMuskDream/Resources/Assets.xcassets/AppIcon.appiconset/1024.png" height="192">
   <h1 align="center">Elon Musk Dream</h1>
 	<h3 align="left">Using Spacexdata public API to get information about SpaceX missions, like:</br></h3>
   <h4>
