@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MissionDetailsViewController" customModule="ElonMuskDream" customModuleProvider="target">
+            <connections>
+                <outlet property="crewNumberLabel" destination="9FY-bU-djN" id="e1h-H5-cMU"/>
+                <outlet property="detailLabel" destination="cHT-5g-znM" id="Oe4-Fw-ezm"/>
+                <outlet property="launchDateLabel" destination="hIO-wt-rOM" id="jVF-Ds-47p"/>
+                <outlet property="launchSuccessfulButton" destination="GlM-rf-6Z5" id="iWN-AI-1MQ"/>
+                <outlet property="mainImageView" destination="snP-qk-4p8" id="J9v-cH-by9"/>
+                <outlet property="seeOriginalImagesButton" destination="b8a-iG-JTx" id="HBj-1D-hNZ"/>
+                <outlet property="titleLabel" destination="iW1-iy-znO" id="40x-Cs-ptk"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wikipediaButton" destination="uKN-sI-0NB" id="nHz-zp-aOL"/>
+                <outlet property="youtubeButton" destination="aqa-jX-2M0" id="8cx-tk-FZr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="34i-qF-18z">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NoK-NP-IlM" userLabel="ContainerView">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="627.5"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="snP-qk-4p8">
+                                    <rect key="frame" x="82" y="10" width="250" height="250"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="250" id="hO9-pV-wAC"/>
+                                        <constraint firstAttribute="height" constant="250" id="kQZ-6K-f1w"/>
+                                    </constraints>
+                                </imageView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="qhn-OM-5cJ">
+                                    <rect key="frame" x="16" y="290" width="382" height="337.5"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Iridium NEXT Mission 1" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iW1-iy-znO">
+                                            <rect key="frame" x="0.0" y="0.0" width="382" height="29"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="tQr-xD-s0C">
+                                            <rect key="frame" x="0.0" y="44" width="382" height="40"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2022-04-31 23:15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIO-wt-rOM">
+                                                    <rect key="frame" x="0.0" y="0.0" width="232" height="40"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GlM-rf-6Z5">
+                                                    <rect key="frame" x="262" y="0.0" width="120" height="40"/>
+                                                    <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="120" id="Gbx-bS-0l2"/>
+                                                        <constraint firstAttribute="height" constant="40" id="L3t-TO-4eL"/>
+                                                    </constraints>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="Successful"/>
+                                                </button>
+                                            </subviews>
+                                        </stackView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHT-5g-znM">
+                                            <rect key="frame" x="0.0" y="99" width="382" height="203"/>
+                                            <string key="text">Return-to-flight mission after the loss of Amos-6 in September 2016. Iridium NEXT will replace the original Iridium constellation, launched in the late 1990s. Each Falcon mission will carry 10 satellites, with a goal to complete deployment of the 66 plus 9 spare satellite constellation by mid 2018. The first two Iridium qualification units were supposed to ride a Dnepr rocket in April 2016 but were delayed, so Iridium decided to qualify the first batch of 10 satellites instead.</string>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9FY-bU-djN" userLabel="crew count">
+                                            <rect key="frame" x="0.0" y="317" width="382" height="20.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b8a-iG-JTx">
+                                            <rect key="frame" x="0.0" y="337.5" width="382" height="50"/>
+                                            <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="zbv-Xf-L9r"/>
+                                            </constraints>
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="See rocket images!">
+                                                <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                            </buttonConfiguration>
+                                            <connections>
+                                                <action selector="seeMoreImageTouchUpInside:" destination="-1" eventType="touchUpInside" id="oPv-Qr-ibW"/>
+                                            </connections>
+                                        </button>
+                                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uKN-sI-0NB">
+                                            <rect key="frame" x="0.0" y="337.5" width="382" height="50"/>
+                                            <color key="backgroundColor" red="0.0" green="0.45882352939999999" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="Tdo-aL-huG"/>
+                                            </constraints>
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="Read more on Wikipedia">
+                                                <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                            </buttonConfiguration>
+                                            <connections>
+                                                <action selector="wikipediaButtonTouchUpInside:" destination="-1" eventType="touchUpInside" id="wuE-mC-eLP"/>
+                                            </connections>
+                                        </button>
+                                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqa-jX-2M0">
+                                            <rect key="frame" x="0.0" y="337.5" width="382" height="50"/>
+                                            <color key="backgroundColor" systemColor="systemRedColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="y4i-kE-QfR"/>
+                                            </constraints>
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="Watch on YouTube">
+                                                <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                            </buttonConfiguration>
+                                            <connections>
+                                                <action selector="YoutubeButtonTouchUpInside:" destination="-1" eventType="touchUpInside" id="kVb-9s-sIC"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="qhn-OM-5cJ" firstAttribute="top" secondItem="snP-qk-4p8" secondAttribute="bottom" constant="30" id="B9a-rW-cKV"/>
+                                <constraint firstItem="snP-qk-4p8" firstAttribute="top" secondItem="NoK-NP-IlM" secondAttribute="top" constant="10" id="IGH-YS-W6U"/>
+                                <constraint firstItem="qhn-OM-5cJ" firstAttribute="leading" secondItem="NoK-NP-IlM" secondAttribute="leading" constant="16" id="Upq-Hy-ZLG"/>
+                                <constraint firstItem="snP-qk-4p8" firstAttribute="centerX" secondItem="NoK-NP-IlM" secondAttribute="centerX" id="beP-rI-KiS"/>
+                                <constraint firstAttribute="bottom" secondItem="qhn-OM-5cJ" secondAttribute="bottom" id="di9-gx-XX3"/>
+                                <constraint firstAttribute="trailing" secondItem="qhn-OM-5cJ" secondAttribute="trailing" constant="16" id="m6m-U1-m33"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="NoK-NP-IlM" firstAttribute="bottom" secondItem="LES-Jl-9ub" secondAttribute="bottom" id="Mzk-gV-qyh"/>
+                        <constraint firstItem="NoK-NP-IlM" firstAttribute="top" secondItem="LES-Jl-9ub" secondAttribute="top" id="gKx-3Q-RNu"/>
+                        <constraint firstItem="NoK-NP-IlM" firstAttribute="trailing" secondItem="LES-Jl-9ub" secondAttribute="trailing" id="iSX-gC-y0x"/>
+                        <constraint firstItem="NoK-NP-IlM" firstAttribute="width" secondItem="oPc-vS-g2P" secondAttribute="width" id="rRg-yE-9CD"/>
+                        <constraint firstItem="NoK-NP-IlM" firstAttribute="leading" secondItem="LES-Jl-9ub" secondAttribute="leading" id="vMC-oo-b2G"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="LES-Jl-9ub"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="oPc-vS-g2P"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="34i-qF-18z" secondAttribute="bottom" id="Mv6-Ws-Kpb"/>
+                <constraint firstItem="34i-qF-18z" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="SNH-Kt-9ZC"/>
+                <constraint firstItem="34i-qF-18z" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="fYp-YS-G22"/>
+                <constraint firstItem="34i-qF-18z" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="noq-wE-t39"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <point key="canvasLocation" x="137.68115942028987" y="78.348214285714278"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
