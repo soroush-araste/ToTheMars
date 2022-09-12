@@ -15,10 +15,10 @@
   <li>Rocket images</li>
   </h4>
   <h3>
-  For creating this app I have used 2 aproach of creating UI elements:
+  For creating this app I have used 2 approach of creating UI elements:
   </h3>
   <h4>
-  <li>Programatically aproach</li>
+  <li>Programatically</li>
   <li>.Xib files</li>
   </h4>
 </p>
